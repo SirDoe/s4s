@@ -1,0 +1,43 @@
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.header {
+    background-color: #000;
+}
+
+.icon-light a {
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.icon-dark > a {
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 1.5em;
+    color: black;
+}
+
+.contact-list > li {
+    margin: 25px 0px;
+}
+
+.products {
+    font-size: 12em;
+    color: white;
+}
+
+.moreText {
+    display: none;
+}
+
+.show-more .moreText {
+display: inline;
+}
+
+.show-more .dots {
+display: none;
+}

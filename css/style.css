@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #000; /* Set background to black */
+  color: #fff; /* Set text color to white for readability */
+}
+
+main {
+  width: 100%;
+  height: 900px;
+  padding-top: 50px;
+  background: url('../img/food-bg.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.open a {
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: #fff;
+  color: #000; /* Updated to match theme */
+  border-radius: 4px;
+  font-size: 18px; /* Smaller font size */
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none; /* Remove underline */
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.open a:hover {
+  transform: scale(1.05);
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  min-height: 560px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 8px;
+}
+
+.product {
+  width: 23%;
+  min-height: 200px;
+  margin-right: 1%;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 30px rgba(256, 256, 256, .4);
+}
+
+.product .product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+button {
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff; /* Updated to match theme */
+  background-color: #000; /* Updated to match theme */
+  color: #fff; /* Updated to match theme */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px; /* Smaller font size */
+}
+
+.cart {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,.9);
+}
+
+h2 {
+  color: #fff;
+  font-size: 24px; /* Smaller font size */
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cart .cart-field {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid white;
+}
+
+.close {
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 20px; /* Smaller font size */
+  margin-top: 10px;
+  color: #000; /* Updated to match theme */
+}
